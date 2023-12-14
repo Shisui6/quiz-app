@@ -1,0 +1,119 @@
+/* Import tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dcdcdc;
+  border-radius: 10px;
+}
+
+/* Global styles */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(145, 145, 145);
+}
+
+/* All */
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 400px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Error page */
+#error-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/error.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+
+.home {
+  background: url('/home.svg');
+}
+
+#error-page h1 {
+  font-size: 100px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+}
+
+#error-page p {
+  font-weight: 400;
+}
+
+/* Radio button */
+input[type='radio'] {
+  display: none;
+}
+
+label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 4px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #936e8f;
+  background-color: transparent;
+}
+
+label input[type='radio']:checked+span {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 20px;
+  left: 24px;
+  display: block;
+  background-color: #e1a7da;
+ }
+
+ /* Fade in */
+ .fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+ }
+
+ @keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
