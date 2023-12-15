@@ -2,6 +2,8 @@
 
 # 📗 Table of Contents
 
+<details>
+  <summary>📗 Table of Contents</summary>
   <ul>
     <li><a href="#-Quiz-app-">📖 Quiz-App</a></li>
     <li><a href="#-built-with-">🛠 Built With</a></li>
@@ -13,6 +15,7 @@
     <li><a href="#-acknowledgments-">🙏 Acknowledgments </a></li>
     <li><a href="#-license-">📝 License</a></li>
   </ul>
+</details>
 
 <br>
 
@@ -28,12 +31,14 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-  <h4>Client</h4>
+<details>
+  <summary>Client</summary>
   <ul>
     <li><a href="https://react.dev/">React</a></li>
     <li><a href="https://redux.js.org/">Redux</a></li>
     <li><a href="https://tailwindcss.com/">Tailwind</a></li>
   </ul>
+</details>
 
 <!-- Features -->
 
@@ -54,7 +59,7 @@ Please be patient when starting the quiz for the first time as the backend is ho
 
 ## 🪵 Link to Backend <a name="key-features"></a>
 
-- [Backend](https://bitbucket.org/check24-quiz/quiz-backend/src/master/)
+- [Backend](https://github.com/Shisui6/quiz-backend)
 
 <!-- GETTING STARTED -->
 
@@ -77,7 +82,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://Kemdee@bitbucket.org/css-offsite/okemdi.git
+  git clone https://github.com/Shisui6/quiz-backend.git
 ```
 
 ### Install
@@ -85,7 +90,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd okemdi
+  cd quiz-app
   npm install
 ```
 
